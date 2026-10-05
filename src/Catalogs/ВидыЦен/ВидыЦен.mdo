@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53e54bfb-3100-4e6a-aa9e-173ca5474dce">
+  <producedTypes>
+    <objectType typeId="f9d318b7-3f79-47d8-ad02-a6ebc9f68195" valueTypeId="bd66a212-0ba0-4855-8960-32382032d290"/>
+    <refType typeId="378592b6-b2d3-4ab0-b0d6-082d2849494e" valueTypeId="f92212a6-4edf-4a37-a516-a7298023fe4d"/>
+    <selectionType typeId="6f42c0f8-0d0a-41c5-bdab-c0c780e812d5" valueTypeId="7e93d300-a752-4b12-ac31-70d8b0643891"/>
+    <listType typeId="81072665-5fcd-4565-bb6b-f28b7f7749de" valueTypeId="e1a5a86a-222b-4a21-8fcc-426e6906d4dd"/>
+    <managerType typeId="04721e0e-a21a-46c3-9869-bbdb3faf13c9" valueTypeId="407d6b77-c4f9-4a8b-8631-3bfc5773b362"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

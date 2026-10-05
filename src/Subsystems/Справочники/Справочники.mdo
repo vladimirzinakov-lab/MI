@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce08c8a3-67c7-4c65-8407-fe865b67c4e2">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНСИ</picture>
+  </picture>
+  <content>Catalog.Номенклатура</content>
+  <content>Enum.Местоположения</content>
+  <content>Catalog.ВидыЦен</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>CommonPicture.Набор</content>
+  <content>CommonPicture.Наборы</content>
+  <content>Catalog.Размещения</content>
+  <content>Enum.ВидыГруппировок</content>
+  <content>Catalog.РазмещенияПрисоединенныеФайлы</content>
+  <content>Report.ОтчетНоменклатураБезФоток</content>
+  <content>CommonPicture.Корзина</content>
+  <content>InformationRegister.ОстаткиПоРазмещению</content>
+  <content>AccumulationRegister.Списание</content>
+  <content>Document.Списание</content>
+  <content>InformationRegister.КомандыПечатиЭтикеток</content>
+  <content>DataProcessor.ИсправлениеРазмещения</content>
+</mdclass:Subsystem>

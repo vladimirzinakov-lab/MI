@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b6e08d1-5d15-4781-a451-d0ea00b260bc">
+  <producedTypes>
+    <selectionType typeId="467add83-8f72-459b-92a8-2e10efd28ad9" valueTypeId="0c3a86b1-b723-46fd-83e4-8dae76eae5dc"/>
+    <listType typeId="aaa0c007-144c-481e-924f-1f92c8387190" valueTypeId="c02fa102-740e-461d-a05a-179cf95c9e48"/>
+    <managerType typeId="be3298ce-53d7-4deb-b7d7-15ac06439edd" valueTypeId="ed3b3049-174b-419a-9658-1ece79973b5a"/>
+    <recordSetType typeId="e122f247-291b-48d4-9a39-b720e92147ee" valueTypeId="3b66ddc7-3bbd-4aac-8a82-972ec95cb8c1"/>
+    <recordKeyType typeId="76f4df85-cf79-4b2d-9e43-a07e0278cd64" valueTypeId="1ca88057-380b-41e7-91cc-c8246949b8e3"/>
+    <recordType typeId="313be25f-256c-4fc6-ab88-b2951ae7edc5" valueTypeId="708fac95-ad32-4654-8ad4-25428c16e693"/>
+    <recordManagerType typeId="93aea780-e2a9-4105-b78c-5baabcbaca19" valueTypeId="a18da88c-9510-4c11-b113-57a780ab7318"/>
+  </producedTypes>
+  <name>ОстаткиПоРазмещению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по размещению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОстаткиПоРазмещению.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b3d0eba5-7e55-47e4-9a38-b4f2c89146e1">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b356585-d9ae-4a3d-b024-b5cde17c21d0">
+    <name>КоличествоПриблизительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество приблизительно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bdf2477d-f3d9-49eb-9449-e05c26cd7a52">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="7ddcb09f-1563-4951-abbf-c6716097f6fd">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="88bc4fa1-4151-4de3-b1f9-a9f3f046c657">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Размещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f3ebbe91-4902-4dd3-b013-537f1025c4fa">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

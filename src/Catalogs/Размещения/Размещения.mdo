@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eb1c0c8-43f9-4571-88b6-f0972d27f188">
+  <producedTypes>
+    <objectType typeId="082f06b3-6b8a-42c2-87cd-9892661068f5" valueTypeId="8abaf7d1-df33-45fa-bb8f-a148449918cb"/>
+    <refType typeId="28407bf7-ce28-4fac-bb2c-3d6c51ab12e0" valueTypeId="4c7c9502-aca1-4509-9e8d-47e2b938576a"/>
+    <selectionType typeId="046dc711-93bb-4211-a198-5068c98371c5" valueTypeId="0e6c51fe-353f-4fb2-a218-67b3649cf560"/>
+    <listType typeId="187d4b2d-3e0c-48ac-9c60-dc9a4be91006" valueTypeId="fdf10959-38ce-4817-853b-39edb9825d9d"/>
+    <managerType typeId="993f42ff-7697-47f0-be79-d8346e3c0c13" valueTypeId="a7a6f085-8cf7-45c8-a3b1-1d7d9e74350b"/>
+  </producedTypes>
+  <name>Размещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Размещения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Размещения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Размещения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Размещения.Form.ФормаГруппы</defaultFolderForm>
+  <attributes uuid="cba42797-9baa-4606-94a5-5d7d932b02c2">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b634b86-dfaf-4f41-bdb0-27d6c6152655">
+    <name>ВыделитьЦветом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделить цветом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c96b83a5-f8e7-4dec-85de-9d56f1277564">
+    <name>КомпьютернаяСборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютерная сборка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="72a2e47e-5bce-43f3-82e1-e01a0586b060">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9d7e08c-0143-4bba-88c1-810b722bc00f">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

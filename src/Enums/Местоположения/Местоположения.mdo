@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e5970c5-ab0e-46a5-be86-989c0ea57964">
+  <producedTypes>
+    <refType typeId="1b369454-a2f1-4a9f-98e8-1151f1cc3445" valueTypeId="13fcab7e-8436-456c-bd62-31b654248398"/>
+    <listType typeId="dd6feec7-7828-466e-881f-b9d2fcab50e8" valueTypeId="8f74b285-706b-4a03-b5dc-0f6024e7cc44"/>
+    <managerType typeId="fd6a1cf5-7cb9-4b9c-85f4-693fc0ab29e0" valueTypeId="5ef2a53b-b2bc-4eeb-8fe4-890408456fc7"/>
+  </producedTypes>
+  <name>Местоположения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местоположения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3ab1f00b-0476-4664-8102-e12dc9a5132b">
+    <name>Дача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ebe64f6-1640-4d22-a82c-2057dad99d29">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d108b84c-c465-4c76-a867-1984c5403dbd">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02494acc-58d9-4a45-8d5f-5c86118b29c1">
+    <name>Ватутинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ватутинки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24f01e71-37c3-4105-b5fb-7c7fb902df65">
+    <name>ЧеховМолодежная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чехов Молодежная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="570629e1-9fd6-43f2-80cd-466e7972b24a">
+    <name>Корзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1dca4cad-d729-411d-8bd8-08edef7ae6b7">
+    <name>Перемещаемое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещаемое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf47eadf-c53d-47bc-b52c-a65f6e2e3a0f">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36595e4a-b9b0-4323-8ec0-612416c4247b">
+    <name>Несколько</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несколько</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="651591c9-61b5-4326-a723-ee18e92d3b8c">
+    <name>Неопределено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

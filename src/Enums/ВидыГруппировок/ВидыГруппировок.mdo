@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33926b7-28c9-4a39-a120-a765fd0df9d7">
+  <producedTypes>
+    <refType typeId="4caac2a6-f8e3-44cc-94e2-5738ba36f78b" valueTypeId="fff4cb00-355f-413d-a05c-a890aa9744ad"/>
+    <listType typeId="85f51628-09d7-4fac-bbf1-fb12d44463a6" valueTypeId="d9c2e3a4-1e7f-4593-a664-6bc9840bc593"/>
+    <managerType typeId="b75a37e2-1349-4e2e-bc89-da8937caf6e3" valueTypeId="3d6e4868-9780-4ef3-9bfa-d0fbef898610"/>
+  </producedTypes>
+  <name>ВидыГруппировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды группировок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da4c3301-733c-45d5-829f-d2948d3201c8">
+    <name>Наборы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7a1203a-63ee-40a0-b7f4-9edf2dcec966">
+    <name>ПоРазмещению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По размещению</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

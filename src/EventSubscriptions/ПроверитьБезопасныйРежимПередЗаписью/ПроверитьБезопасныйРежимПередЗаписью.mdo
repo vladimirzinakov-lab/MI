@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82035887-4f22-435b-a43f-b5ef9cb845ce">
+  <name>ПроверитьБезопасныйРежимПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить безопасный режим перед записью</value>
+  </synonym>
+  <comment>// АПК:1371 проверка применима для всех объектов метаданных, в т.ч. удаляемых</comment>
+  <source>
+    <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
+    <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
+    <types>CatalogObject.ХранилищеДвоичныхДанных</types>
+    <types>ConstantValueManager.СписокЗапрещенныхРасширений</types>
+    <types>CatalogObject.ВерсииФайлов</types>
+    <types>ConstantValueManager.ИспользоватьГруппыВнешнихПользователей</types>
+    <types>ConstantValueManager.СоздаватьПодкаталогиСИменамиВладельцев</types>
+    <types>ConstantValueManager.УдалитьНастройкиВходаПользователей</types>
+    <types>ConstantValueManager.ОтложенноеОбновлениеЗавершеноУспешно</types>
+    <types>ConstantValueManager.ОсновнойЯзык</types>
+    <types>ConstantValueManager.НастройкиВходаПользователей</types>
+    <types>ConstantValueManager.СостояниеОтправкиСерверныхОповещений</types>
+    <types>ConstantValueManager.ИзвлекатьТекстыФайловНаСервере</types>
+    <types>ConstantValueManager.СинхронизироватьФайлы</types>
+    <types>CatalogObject.ПредопределенныеВариантыОтчетовРасширений</types>
+    <types>CatalogObject.ИдентификаторыОбъектовРасширений</types>
+    <types>ConstantValueManager.ЗаголовокСистемы</types>
+    <types>ConstantValueManager.СтандартныеПодсистемыВАвтономномРежиме</types>
+    <types>ConstantValueManager.СведенияОБлокируемыхОбъектах</types>
+    <types>ConstantValueManager.ПутьКТомуБезУчетаРегиональныхНастроек</types>
+    <types>ConstantValueManager.КаталогВременныхФайловДляWindows</types>
+    <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
+    <types>ConstantValueManager.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</types>
+    <types>ConstantValueManager.АдресПубликацииИнформационнойБазыВЛокальнойСети</types>
+    <types>ConstantValueManager.СписокРасширенийФайловOpenDocumentОбластиДанных</types>
+    <types>ConstantValueManager.РегистрироватьПоказателиСерверныхОповещений</types>
+    <types>ConstantValueManager.ИспользоватьВнешнихПользователей</types>
+    <types>ConstantValueManager.ПараметрыАдминистрированияИБ</types>
+    <types>ConstantValueManager.МаксимальныйРазмерФайлаОбластиДанных</types>
+    <types>ConstantValueManager.ПараметрыХраненияФайловВИБ</types>
+    <types>ConstantValueManager.СведенияОбОбновленииИБ</types>
+    <types>ConstantValueManager.СпособХраненияФайлов</types>
+    <types>ConstantValueManager.АдресПубликацииИнформационнойБазыВИнтернете</types>
+    <types>ConstantValueManager.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</types>
+    <types>ConstantValueManager.ГлавныйУзел</types>
+    <types>CatalogObject.ГруппыВнешнихПользователей</types>
+    <types>ConstantValueManager.СписокРасширенийФайловOpenDocument</types>
+    <types>ConstantValueManager.РежимОчисткиФайлов</types>
+    <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
+    <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
+    <types>ConstantValueManager.ИспользоватьГруппыПользователей</types>
+    <types>CatalogObject.ВнешниеПользователи</types>
+    <types>ConstantValueManager.СписокРасширенийТекстовыхФайлов</types>
+    <types>CatalogObject.ВерсииРасширений</types>
+    <types>ConstantValueManager.ИдентификаторИнформационнойБазы</types>
+    <types>CatalogObject.Файлы</types>
+    <types>ConstantValueManager.СписокЗапрещенныхРасширенийОбластиДанных</types>
+    <types>ConstantValueManager.ЗапрещатьЗагрузкуФайловПоРасширению</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>ConstantValueManager.ПорядокОбрабатываемыхДанных</types>
+    <types>CatalogObject.ГруппыПользователей</types>
+    <types>ConstantValueManager.КаталогВременныхФайловДляLinux</types>
+    <types>ConstantValueManager.ИспользоватьУдалениеПомеченныхОбъектов</types>
+    <types>CatalogObject.Пользователи</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.СтандартныеПодсистемыСервер.ПроверитьБезопасныйРежимПередЗаписью</handler>
+</mdclass:EventSubscription>

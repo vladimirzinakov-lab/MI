@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51e4d096-d4ee-487e-952f-5793b3e83842">
+  <producedTypes>
+    <selectionType typeId="9ef5b8e5-8c78-4b63-89fd-db78a325159f" valueTypeId="25ae87fb-1784-4c64-98cf-03f577961ed1"/>
+    <listType typeId="759a9226-6467-4de9-a110-cd303c1ad090" valueTypeId="87ed22ab-b94f-45e5-813f-c9ebfa7a0ecb"/>
+    <managerType typeId="70031f8b-0a57-42d1-8a5b-bde9c202fa06" valueTypeId="6914c4e6-ede9-4f41-8387-bc9927413c40"/>
+    <recordSetType typeId="9bbae78d-562e-4208-a480-6d90857575bb" valueTypeId="d0009258-4661-4bec-aa2c-811007e9cdb1"/>
+    <recordKeyType typeId="c39fa31e-dc30-4493-923a-1776716dc75d" valueTypeId="7f3b48d6-b718-48b7-af11-7b618f842ad5"/>
+    <recordType typeId="dd66c703-9a38-4e38-b1ec-ff0c33a8b8b4" valueTypeId="086e9284-8d5d-4647-9802-bf94d7fa8fac"/>
+    <recordManagerType typeId="0e009b7d-ebca-4b04-a789-51fea654e184" valueTypeId="6612e971-b34e-4580-b354-e5718e0ddf3e"/>
+  </producedTypes>
+  <name>КомандыПечатиЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды печати этикеток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="39c0f08f-782f-4c55-b7fb-a7f1be800ec1">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="ede3d8c2-216c-43c7-b9ea-0993e1313e96">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="276babbd-ed4e-4d5e-96b5-071d722d8427">
+    <name>СразуНаПринтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сразу на принтер</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7614f329-c7dc-4a91-a766-6742933184a0">
+    <name>Отключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dedddc66-e5d7-4be1-b9b6-4453e899e70b">
+    <name>Выделить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="913c2ce6-76f8-4016-b35f-d30a636f032d">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>имя макета</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

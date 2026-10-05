@@ -1,0 +1,24 @@
+# --- 1C:EDT ---
+/bin/
+/build/
+/DumpFiles/
+*.dt
+*.cfe
+*.cf
+
+# Кэш родительской конфигурации (бинарный, генерируется автоматически)
+/src/Configuration/ParentConfigurations.bin
+/src/Configuration/ParentConfigurations/
+
+# --- Eclipse ---
+.metadata/
+*.log
+*.tmp
+*.bak
+.tern-project
+
+# --- ОС / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

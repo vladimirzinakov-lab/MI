@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d10a2c15-72e1-44ba-a078-6c76c1061e4f">
+  <name>ПодсистемаНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема НСИ</value>
+  </synonym>
+</mdclass:CommonPicture>
