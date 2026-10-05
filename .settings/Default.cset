@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "settings": {
+    "query-in-loop": {
+      "enabled": false
+    },
+    "bsl-variable-name-invalid": {
+      "enabled": false
+    }
+  }
+}
