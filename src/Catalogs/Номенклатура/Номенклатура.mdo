@@ -296,15 +296,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="4455f6d2-7156-4768-a536-afea5a0b8bdc">
-    <name>Корзина</name>
-    <synonym>
-      <key>ru</key>
-      <value>Корзина</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <templates uuid="a9a31866-3b39-4b3a-8d81-82f87b7d2153">
     <name>Этикетка50х30</name>
     <synonym>
