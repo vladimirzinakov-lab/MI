@@ -1,0 +1,31 @@
+# Единый стиль переводов строк для проекта 1C:EDT.
+# В репозитории текст хранится с LF, в рабочей копии (Windows) — с CRLF.
+# Это исключает «ложные» диффы, когда редактор сохраняет файл с другим переводом строк.
+* text=auto eol=crlf
+
+# Явно бинарные файлы — переводы строк не преобразуются
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.bmp   binary
+*.ico   binary
+*.tif   binary
+*.tiff  binary
+*.zip   binary
+*.rar   binary
+*.7z    binary
+*.gz    binary
+*.tar   binary
+*.bin   binary
+*.exe   binary
+*.dll   binary
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+*.pdf   binary
+*.xls   binary
+*.xlsx  binary
+*.doc   binary
+*.docx  binary
