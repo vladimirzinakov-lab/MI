@@ -1404,40 +1404,6 @@
           <autoMaxHeight>true</autoMaxHeight>
         </extInfo>
       </items>
-      <items xsi:type="form:Decoration">
-        <name>Корзина</name>
-        <id>231</id>
-        <title>
-          <key>ru</key>
-          <value>Корзина</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>КорзинаРасширеннаяПодсказка</name>
-          <id>233</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КорзинаКонтекстноеМеню</name>
-          <id>232</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1821,10 +1787,13 @@
               </extendedTooltip>
               <commandName>Form.Command.ДобавитьРазмещениеЭлемент</commandName>
               <buttonImportance>Normal</buttonImportance>
-              <representation>Auto</representation>
+              <representation>PictureAndText</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.ВариантыРазмещений2</picture>
+              </picture>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
@@ -1851,6 +1820,9 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.Папка</picture>
+              </picture>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
@@ -1874,13 +1846,20 @@
             </extendedTooltip>
             <type>Popup</type>
             <extInfo xsi:type="form:PopupGroupExtInfo">
-              <representation>Auto</representation>
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.ВариантыРазмещений2</picture>
+              </picture>
+              <representation>PictureAndText</representation>
               <importance>Normal</importance>
             </extInfo>
           </items>
           <items xsi:type="form:Button">
             <name>ТоварыУстановитьТекущийУзел</name>
             <id>202</id>
+            <title>
+              <key>ru</key>
+              <value>Установить текущий узел</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1902,6 +1881,9 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.Успешно</picture>
+            </picture>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
@@ -2613,10 +2595,6 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
-    <event>OnReopen</event>
-    <name>ПриПовторномОткрытии</name>
   </handlers>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Help</excludedCommands>
@@ -3333,6 +3311,10 @@
       <value>Установить текущий узел</value>
     </title>
     <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Установить текущий узел</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -3397,6 +3379,10 @@
       <value>Обновить</value>
     </title>
     <id>10</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
