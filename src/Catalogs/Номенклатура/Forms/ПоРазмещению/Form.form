@@ -1038,45 +1038,6 @@
       <items xsi:type="form:FormGroup">
         <name>Группа4</name>
         <id>95</id>
-        <items xsi:type="form:Decoration">
-          <name>Корзина</name>
-          <id>97</id>
-          <title>
-            <key>ru</key>
-            <value>Корзина</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>КорзинаРасширеннаяПодсказка</name>
-            <id>99</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КорзинаКонтекстноеМеню</name>
-            <id>98</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <handlers>
-              <event>Click</event>
-              <name>КорзинаНажатие</name>
-            </handlers>
-            <hyperlink>true</hyperlink>
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
         <items xsi:type="form:FormGroup">
           <name>СтраницыИзображения</name>
           <id>34</id>

@@ -47,13 +47,6 @@
       <value>Чехов Молодежная</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="570629e1-9fd6-43f2-80cd-466e7972b24a">
-    <name>Корзина</name>
-    <synonym>
-      <key>ru</key>
-      <value>Корзина</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="1dca4cad-d729-411d-8bd8-08edef7ae6b7">
     <name>Перемещаемое</name>
     <synonym>
