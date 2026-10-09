@@ -10,13 +10,5 @@
       </visibility>
     </items>
   </columns>
-  <columns>
-    <items>
-      <form>Catalog.Номенклатура.Form.ПоРазмещению</form>
-      <height>10</height>
-      <visibility>
-        <common>true</common>
-      </visibility>
-    </items>
-  </columns>
+  <columns/>
 </hpwa:HomePageWorkArea>
