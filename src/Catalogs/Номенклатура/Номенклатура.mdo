@@ -277,15 +277,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="8daeb644-3427-478f-9a95-f5dbf5e1ad54">
-    <name>ПоРазмещению</name>
-    <synonym>
-      <key>ru</key>
-      <value>Размещение</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <templates uuid="a9a31866-3b39-4b3a-8d81-82f87b7d2153">
     <name>Этикетка50х30</name>
     <synonym>
