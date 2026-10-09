@@ -2073,6 +2073,8 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>Tree</representation>
+        <changeRowSet>true</changeRowSet>
+        <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -2094,7 +2096,6 @@
         <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
         <searchStringLocation>CommandBar</searchStringLocation>
-        <searchControlLocation>CommandBar</searchControlLocation>
         <autoMaxCardHeight>true</autoMaxCardHeight>
         <showCommandBarNeedDereferenced>true</showCommandBarNeedDereferenced>
       </items>
@@ -2584,10 +2585,6 @@
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
