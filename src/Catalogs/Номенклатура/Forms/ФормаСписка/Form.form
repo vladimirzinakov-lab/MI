@@ -1474,46 +1474,6 @@
     <items xsi:type="form:FormGroup">
       <name>ГруппаДерево</name>
       <id>136</id>
-      <items xsi:type="form:FormField">
-        <name>ТекущийУзел3</name>
-        <id>140</id>
-        <title>
-          <key>ru</key>
-          <value>Текущий узел</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ТекущийУзел</segments>
-        </dataPath>
-        <extendedTooltip>
-          <name>ТекущийУзел3РасширеннаяПодсказка</name>
-          <id>142</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ТекущийУзел3КонтекстноеМеню</name>
-          <id>141</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>LabelField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-        </extInfo>
-      </items>
       <items xsi:type="form:Table">
         <name>Товары</name>
         <id>143</id>
@@ -2163,11 +2123,11 @@
           <name>Группа4</name>
           <id>236</id>
           <items xsi:type="form:Decoration">
-            <name>ТекущийУзел</name>
+            <name>ТекущийУзел1</name>
             <id>228</id>
             <title>
               <key>ru</key>
-              <value>Текущий узел</value>
+              <value>Текущий узел1</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2175,7 +2135,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекущийУзелРасширеннаяПодсказка</name>
+              <name>ТекущийУзел1РасширеннаяПодсказка</name>
               <id>230</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2185,7 +2145,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ТекущийУзелКонтекстноеМеню</name>
+              <name>ТекущийУзел1КонтекстноеМеню</name>
               <id>229</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -2193,6 +2153,11 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <handlers>
+                <event>Click</event>
+                <name>ОбновитьДеревоТоваров</name>
+              </handlers>
+              <hyperlink>true</hyperlink>
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </items>
@@ -2234,11 +2199,11 @@
           <name>Группа5</name>
           <id>238</id>
           <items xsi:type="form:Decoration">
-            <name>ТекущийУзел1</name>
+            <name>ТекущийУзел2</name>
             <id>222</id>
             <title>
               <key>ru</key>
-              <value>Текущий узел1</value>
+              <value>Текущий узел2</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2246,7 +2211,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекущийУзел1РасширеннаяПодсказка</name>
+              <name>ТекущийУзел2РасширеннаяПодсказка</name>
               <id>224</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2256,7 +2221,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ТекущийУзел1КонтекстноеМеню</name>
+              <name>ТекущийУзел2КонтекстноеМеню</name>
               <id>223</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -2264,6 +2229,11 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <handlers>
+                <event>Click</event>
+                <name>ПоказатьТекущийУзел2</name>
+              </handlers>
+              <hyperlink>true</hyperlink>
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </items>
@@ -2305,11 +2275,11 @@
           <name>Группа6</name>
           <id>240</id>
           <items xsi:type="form:Decoration">
-            <name>ТекущийУзел2</name>
+            <name>ТекущийУзел3</name>
             <id>225</id>
             <title>
               <key>ru</key>
-              <value>Текущий узел2</value>
+              <value>Текущий узел3</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2317,7 +2287,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекущийУзел2РасширеннаяПодсказка</name>
+              <name>ТекущийУзел3РасширеннаяПодсказка</name>
               <id>227</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2327,7 +2297,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ТекущийУзел2КонтекстноеМеню</name>
+              <name>ТекущийУзел3КонтекстноеМеню</name>
               <id>226</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -2335,6 +2305,11 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <handlers>
+                <event>Click</event>
+                <name>ПоказатьТекущийУзел3</name>
+              </handlers>
+              <hyperlink>true</hyperlink>
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </items>
@@ -2652,6 +2627,7 @@
   <excludedCommands>OpenFromMainServer</excludedCommands>
   <excludedCommands>OpenFromStandaloneServer</excludedCommands>
   <windowOpeningMode>DontBlock</windowOpeningMode>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2988,10 +2964,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ТекущийУзел</name>
+    <name>ТекущийУзел1</name>
     <title>
       <key>ru</key>
-      <value>ТекущийУзел</value>
+      <value>ТекущийУзел1</value>
     </title>
     <id>7</id>
     <valueType>
@@ -3003,12 +2979,15 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ТекущийУзел1</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
-    <name>ТекущийУзел1</name>
+    <name>ТекущийУзел2</name>
     <title>
       <key>ru</key>
-      <value>ТекущийУзел1</value>
+      <value>ТекущийУзел2</value>
     </title>
     <id>8</id>
     <valueType>
@@ -3020,12 +2999,15 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ТекущийУзел2</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
-    <name>ТекущийУзел2</name>
+    <name>ТекущийУзел3</name>
     <title>
       <key>ru</key>
-      <value>ТекущийУзел2</value>
+      <value>ТекущийУзел3</value>
     </title>
     <id>9</id>
     <valueType>
@@ -3037,6 +3019,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ТекущийУзел3</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>МассивУзловРазмещения</name>
@@ -3219,6 +3204,23 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>ТекущийУзел</name>
+    <title>
+      <key>ru</key>
+      <value>ТекущийУзел</value>
+    </title>
+    <id>21</id>
+    <valueType>
+      <types>CatalogRef.Размещения</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ПоказатьРазмещение</name>
