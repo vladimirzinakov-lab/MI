@@ -621,7 +621,6 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.НоменклатураСервер</commonModules>
-  <commonModules>CommonModule.НоменклатураКлиент</commonModules>
   <commonModules>CommonModule.ПечатьЭтикеток</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>

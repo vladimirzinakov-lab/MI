@@ -2586,12 +2586,16 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Help</excludedCommands>
