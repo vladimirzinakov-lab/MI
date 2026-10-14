@@ -1453,18 +1453,18 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>List</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
         <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
+        <excludedCommands>List</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>ShowRowRearrangement</excludedCommands>
         <excludedCommands>SortListAsc</excludedCommands>
         <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>ShowRowRearrangement</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ТоварыГруппа1</name>
           <id>234</id>
@@ -3018,6 +3018,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>Товары</name>
